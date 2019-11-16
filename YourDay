@@ -1,0 +1,8 @@
+print ("Did you have a good day today? Answer yes or no")
+mood = input()
+if mood == "yes":
+    print ("I'm glad you had a good day!<3")
+else:
+    print("What's the matter?")
+    matter = input()
+    print("Don't worry. I will help you with", matter)
